@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fffdf7;
+  --foreground: #1a1a1a;
+  --primary: #FF8C42;
+  --primary-light: #ffe0c8;
+  --primary-dark: #e6722a;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-noto-sans-kr), "Noto Sans KR", sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
