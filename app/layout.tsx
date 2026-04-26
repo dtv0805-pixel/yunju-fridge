@@ -8,7 +8,7 @@ const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
 });
 
-const APP_URL = "https://yoonju-fridge.vercel.app";
+const APP_URL = "https://yunju-fridge-dtv0805-pixels-projects.vercel.app";
 
 export const metadata: Metadata = {
   title: "윤주의 냉장고를 부탁해",
